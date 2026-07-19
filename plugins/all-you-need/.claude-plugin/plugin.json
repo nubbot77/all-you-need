@@ -1,0 +1,8 @@
+{
+  "name": "all-you-need",
+  "description": "Spec-first engineering workflow: PRD → Plan → Architecture → Rules → Code → Test → Deploy. One orchestrator skill with per-stage files loaded on demand.",
+  "version": "1.0.0",
+  "author": {
+    "name": "nubbot77"
+  }
+}

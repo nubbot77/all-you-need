@@ -1,0 +1,13 @@
+{
+  "name": "all-you-need",
+  "owner": {
+    "name": "nubbot77"
+  },
+  "plugins": [
+    {
+      "name": "all-you-need",
+      "source": "./plugins/all-you-need",
+      "description": "Spec-first engineering workflow orchestrator: PRD → Plan → Architecture → Rules → Code → Test → Deploy, with approval gates and token-efficient progressive disclosure."
+    }
+  ]
+}
