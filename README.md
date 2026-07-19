@@ -12,12 +12,44 @@ AI agents jump straight to code and guess at requirements. This skill forces the
 
 ## Install
 
+### Claude Code (native plugin)
+
 ```
 /plugin marketplace add nubbot77/all-you-need
 /plugin install all-you-need@all-you-need
 ```
 
 Then in any project, say **"start workflow"** or invoke `/all-you-need`.
+
+### OpenAI Codex CLI
+
+```bash
+git clone https://github.com/nubbot77/all-you-need ~/.all-you-need
+mkdir -p ~/.codex/prompts
+cp ~/.all-you-need/agents/codex/all-you-need.md ~/.codex/prompts/
+```
+
+Then run `/all-you-need` inside Codex.
+
+### Gemini CLI
+
+```bash
+git clone https://github.com/nubbot77/all-you-need ~/.all-you-need
+mkdir -p ~/.gemini/commands
+cp ~/.all-you-need/agents/gemini/all-you-need.toml ~/.gemini/commands/
+```
+
+Then run `/all-you-need` inside Gemini CLI.
+
+### Cursor, Windsurf, Aider, any other agent
+
+```bash
+git clone https://github.com/nubbot77/all-you-need ~/.all-you-need
+```
+
+Paste the block from [`agents/AGENTS-snippet.md`](agents/AGENTS-snippet.md) into your agent's instructions file (`AGENTS.md`, `.cursor/rules`, `.windsurfrules`, `CONVENTIONS.md`, …), then say **"start workflow"**.
+
+Update on any agent: `git -C ~/.all-you-need pull` (Claude Code users update via `/plugin`).
 
 ## Stages
 
@@ -41,7 +73,7 @@ Then in any project, say **"start workflow"** or invoke `/all-you-need`.
 
 ## Requirements
 
-- Claude Code
+- Any supported coding agent (Claude Code, Codex CLI, Gemini CLI, Cursor, Windsurf, Aider, …)
 - Optional: `grill-with-docs` skill for a sharper requirements interview (falls back to built-in questions)
 - Optional: `gh` CLI authenticated, for automatic issue creation
 

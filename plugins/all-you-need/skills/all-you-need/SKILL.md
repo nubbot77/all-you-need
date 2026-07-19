@@ -38,7 +38,7 @@ notes: <one line max, only if resuming mid-stage>
 - No production code before Stages 1–4 are approved.
 - Never assume missing requirements — ask via AskUserQuestion.
 - If an upstream doc changes, update dependent docs and note it in PROJECT_STATE.md.
-- Approval gates use AskUserQuestion (approve / request changes). Repeat until approved.
+- Approval gates use AskUserQuestion (approve / request changes); on agents without that tool, ask the question directly in chat and wait. Repeat until approved.
 - Docs scale to project size: for a small project, merge PRD+PLAN into one doc and skip the architecture options comparison unless the user is unsure of their stack.
 
 ## Small-Task Escape Hatch
