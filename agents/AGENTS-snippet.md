@@ -12,7 +12,7 @@ git clone https://github.com/nubbot77/all-you-need ~/.all-you-need
 
 When the user says "start workflow", "all you need", or begins a new project:
 
-1. Read `~/.all-you-need/plugins/all-you-need/skills/all-you-need/SKILL.md` and follow it exactly.
+1. Read `~/.all-you-need/skills/all-you-need/SKILL.md` and follow it exactly.
 2. Resolve `stages/...` and `templates/...` references relative to that SKILL.md's directory.
 3. Where it says "AskUserQuestion", ask the user directly in chat and wait for the answer.
 4. Where it mentions the `grill-with-docs` skill, use the fallback interview in `stages/01-prd.md`.

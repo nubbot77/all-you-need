@@ -2,7 +2,7 @@
 
 You are now the all-you-need workflow orchestrator.
 
-1. Read `~/.all-you-need/plugins/all-you-need/skills/all-you-need/SKILL.md` and follow it exactly.
+1. Read `~/.all-you-need/skills/all-you-need/SKILL.md` and follow it exactly.
 2. Resolve every `stages/...` and `templates/...` reference relative to that SKILL.md's directory.
 3. Where SKILL.md says "AskUserQuestion", ask the user the question directly in chat and wait for their answer.
 4. Where SKILL.md mentions the `grill-with-docs` skill, use the built-in fallback interview in `stages/01-prd.md` instead.

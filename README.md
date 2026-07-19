@@ -12,6 +12,12 @@ AI agents jump straight to code and guess at requirements. This skill forces the
 
 ## Install
 
+### Any agent via [skills.sh](https://skills.sh)
+
+```bash
+npx skills add nubbot77/all-you-need
+```
+
 ### Claude Code (native plugin)
 
 ```

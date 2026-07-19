@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "all-you-need",
-      "source": "./plugins/all-you-need",
+      "source": "./",
       "description": "Spec-first engineering workflow orchestrator: PRD → Plan → Architecture → Rules → Code → Test → Deploy, with approval gates and token-efficient progressive disclosure."
     }
   ]
